@@ -102,21 +102,28 @@
     <form class="contato">
         <p class="title"> - ENTRE EM CONTATO COMIGO -</p>
         <hr width="600px">
+        <div class="error">
+            <label style="color: red;  " id="campoNome">*Campo nome Invalido</label>
+            <label style="color: red; margin-left: 250px;">*Campo telefone Invalido</label>
+        </div>
         <div class="nome" style=" display: flex; align-items: center; justify-content: start;">
             <input class="texto" type="text" style="width: 400px;" placeholder="Insira o seu Nome"
                 aria-label="default input example" value="">
             <input class="texto" type="text" id="nome" style=" width: 200px" placeholder="Insira o seu Telefone"
                 aria-label="default input example" id="nome">
         </div>
+        <label class="error" style="color: red; ">*Campo e-mail Invalido</label>
         <div class="nome" style=" display: flex; align-items: center; justify-content: start;">
-            <input class="texto" type="text" style="width: 610px;" placeholder="Insira o seu Nome"
+            <input class="texto" type="text" style="width: 610px;" placeholder="Insira o seu e-mail"
                 aria-label="default input example">
         </div>
+        <label class="error" style="color: red; ">*Preencha a mensagem corretamente</label>
         <div class="nome" style="display: flex; align-items: center; justify-content: start;">
-        <textarea class="texto" placeholder="Escreva sua mensagem" style="width: 610px;"></textarea>
+            <textarea class="texto" placeholder="Escreva sua mensagem" style="width: 610px;"></textarea>
         </div>
 
-        <button type="submit" href="#"" class=" button-two" onclick="enviar()" style="margin-bottom: 10px;">Enviar Mensagem    </button>
+        <button type="submit" href="#"" class=" button-two" onclick="enviar()" style="margin-bottom: 10px;">Enviar
+            Mensagem </button>
     </form>
 
     <footer>
