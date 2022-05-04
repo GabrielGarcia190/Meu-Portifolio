@@ -52,8 +52,8 @@ nav ul li a:hover {
 }
 
 .btn {
-    background-color: rgb(255, 35, 50);
-    color: white;
+    background-color: white;
+    color: black;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
@@ -211,7 +211,7 @@ button:hover {
     height: 390px;
     width: 335px;
     padding: 20px 35px 20px 35px;
-    background:#191919;
+    background: #191919;
     border-radius: 20px;
     margin: 15px;
     position: relative;
@@ -275,7 +275,7 @@ h5 {
     display: flex;
     align-items: flex-start;
     justify-content: start;
-    color:black;
+    color: black;
     text-decoration: black;
     margin-left: 10px;
     box-shadow: 0px 0px 5px #000, 0px 0px 5px #858585;
@@ -371,10 +371,40 @@ footer p:nth-child(2) {
 .nome {
     border-radius: 50%;
     height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
 }
 
 .error {
     margin-top: 15px;
-    display: none; 
+    color: red;
     font-size: 15px;
+}
+
+#erroNome {
+    color: red;
+    display: none;
+}
+
+#campoNome {
+    width: 400px;
+}
+
+#campoTel {
+    width: 200px;
+}
+
+#erroMsg {
+    display: none;
+}
+
+#campoMsg {
+    width: 610px;
+    max-width: 700px;
+    min-width: 610px;
+}
+
+#erroEmail {
+    display: none;
 }
